@@ -1,5 +1,6 @@
 # 郑州大学健康打卡自动上报程序zzu_jksb
 ## 本程序运行环境Python3(感谢贡献者[Survivorage](https://github.com/Survivorage)完成对python3.8的适配)或2都可
+### 未适配py3.8的原版本在分支origin_version下
 ## 运行前请自行pip安装下列库：
   - requests 
   - BeautifulSoup4
