@@ -10,7 +10,7 @@
 ### config.ini文件
 ###  [sendmail]
 sender_qq = admin@test.com\
-pwd = bmosoqkybixddhcg\
+pwd = XXXXXXXXXXXXXXX\
 
 ### [Delay_Time]
 设置程序延迟时间，避免IP被封。单位为秒，默认100
