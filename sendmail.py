@@ -33,7 +33,7 @@ class mail:
 
         #ssl登录
         smtp = SMTP_SSL(self.host_server)
-        #set_debuglevel()是用来调试的。参数值为1表示开启调试模式，参数值为0关闭调试模式
+        #set_debuglevel()参数值为1表示开启调试模式，参数值为0关闭调试模式
         smtp.set_debuglevel(1)
         smtp.ehlo(self.host_server)
         smtp.login(self.sender_qq, self.pwd)
